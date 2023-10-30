@@ -10,8 +10,6 @@ export class AdressService {
   private _http = inject(HttpClient);
 
   public findAddress(cep: string): Observable<Adress> {
-    return this._http.get<Adress>(`localhost:8080/consulta-cep/${cep}/json`);
+    return this._http.get<Adress>(`https://viacep.com.br/ws/${cep}/json`);
   }
 }
-
-// localhost:8080/consulta-cep${cep}

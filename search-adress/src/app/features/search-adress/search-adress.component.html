@@ -1,19 +1,33 @@
+<mat-toolbar color="primary">
+  <span>Search Adress</span>
+</mat-toolbar>
+
 <form [formGroup]="form">
-  <label for="">cep</label>
-  <input type="text" formControlName="cep"/>
+  <label>cep</label>
+  <input matInput placeholder="cep" formControlName="cep" />
+
   <label for="">logradouro</label>
-  <input type="text" formControlName="logradouro" />
+  <input matInput placeholder="logradouro" formControlName="logradouro" />
+
   <label for="">complemento</label>
-  <input type="text" formControlName="complemento" />
+  <input matInput placeholder="complemento" formControlName="complemento" />
+
   <label for="">bairro</label>
-  <input type="text" formControlName="bairro" />
+  <input matInput placeholder="bairro" formControlName="bairro" />
+
   <label for="">localidade</label>
-  <input type="text" formControlName="localidade" />
+  <input matInput placeholder="localidade" formControlName="localidade" />
+
   <label for="">ibge</label>
-  <input type="text" formControlName="ibge" />
+  <input matInput placeholder="ibge" formControlName="ibge" />
+
   <label for="">ddd</label>
-  <input type="text" formControlName="ddd" />
+  <input matInput placeholder="ddd" formControlName="ddd" />
+
   <label for="">siafi</label>
-  <input type="text" formControlName="siafi" />
-  <button (click)="getFindAddress()">Search</button>
+  <input matInput placeholder="siafi" formControlName="siafi" />
+
+  <button mat-raised-button color="primary" (click)="getFindAddress()">
+    Search
+  </button>
 </form>
