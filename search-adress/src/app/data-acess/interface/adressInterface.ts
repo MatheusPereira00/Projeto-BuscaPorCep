@@ -1,10 +1,10 @@
 export interface Adress {
-  cep: String;
-  logradouro: String;
-  complemento: String;
-  bairro: String;
-  localidade: String;
-  ibge: number;
-  ddd: number;
-  siafi: number;
+  cep: string;
+  logradouro: string;
+  complemento: string;
+  bairro: string;
+  localidade: string;
+  ibge: string;
+  ddd: string;
+  siafi: string;
 }

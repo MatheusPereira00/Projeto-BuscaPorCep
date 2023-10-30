@@ -1,6 +1,6 @@
-<form [formGroup]="searchAdressForm">
+<form [formGroup]="form">
   <label for="">cep</label>
-  <input type="text" formControlName="cep" />
+  <input type="text" formControlName="cep"/>
   <label for="">logradouro</label>
   <input type="text" formControlName="logradouro" />
   <label for="">complemento</label>
@@ -15,4 +15,5 @@
   <input type="text" formControlName="ddd" />
   <label for="">siafi</label>
   <input type="text" formControlName="siafi" />
+  <button (click)="getFindAddress()">Search</button>
 </form>
