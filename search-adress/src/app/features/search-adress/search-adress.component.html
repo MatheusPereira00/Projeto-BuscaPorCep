@@ -4,28 +4,68 @@
 
 <form [formGroup]="form">
   <label>cep</label>
-  <input matInput placeholder="cep" formControlName="cep" />
+  <input
+    class="form-control"
+    placeholder="cep"
+    formControlName="cep"
+    aria-describedby="basic-addon1"
+  />
 
-  <label for="">logradouro</label>
-  <input matInput placeholder="logradouro" formControlName="logradouro" />
+  <label>logradouro</label>
+  <input
+    class="form-control"
+    placeholder="logradouro"
+    formControlName="logradouro"
+    aria-describedby="basic-addon1"
+  />
 
-  <label for="">complemento</label>
-  <input matInput placeholder="complemento" formControlName="complemento" />
+  <label>complemento</label>
+  <input
+    class="form-control"
+    placeholder="complemento"
+    formControlName="complemento"
+    aria-describedby="basic-addon1"
+  />
 
-  <label for="">bairro</label>
-  <input matInput placeholder="bairro" formControlName="bairro" />
+  <label>bairro</label>
+  <input
+    class="form-control"
+    placeholder="bairro"
+    formControlName="bairro"
+    aria-describedby="basic-addon1"
+  />
 
-  <label for="">localidade</label>
-  <input matInput placeholder="localidade" formControlName="localidade" />
+  <label>localidade</label>
+  <input
+    class="form-control"
+    placeholder="localidade"
+    formControlName="localidade"
+    aria-describedby="basic-addon1"
+  />
 
-  <label for="">ibge</label>
-  <input matInput placeholder="ibge" formControlName="ibge" />
+  <label>ibge</label>
+  <input
+    class="form-control"
+    placeholder="ibge"
+    formControlName="ibge"
+    aria-describedby="basic-addon1"
+  />
 
-  <label for="">ddd</label>
-  <input matInput placeholder="ddd" formControlName="ddd" />
+  <label>ddd</label>
+  <input
+    class="form-control"
+    placeholder="ddd"
+    formControlName="ddd"
+    aria-describedby="basic-addon1"
+  />
 
-  <label for="">siafi</label>
-  <input matInput placeholder="siafi" formControlName="siafi" />
+  <label>siafi</label>
+  <input
+    class="form-control"
+    placeholder="siafi"
+    formControlName="siafi"
+    aria-describedby="basic-addon1"
+  />
 
   <button mat-raised-button color="primary" (click)="getFindAddress()">
     Search
