@@ -1,4 +1,8 @@
-
-# search-cep-project
-
-- Esse projeto fiz em angular, ele esta integrado com meu projeto feito em spring que consome do ViaCep
+## ✨ Tecnologias
+<br>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=angular,rxjs,ts,scss,css,html" />
+  </a>
+</p>
+<br>
